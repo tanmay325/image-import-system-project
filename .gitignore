@@ -1,0 +1,122 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# Flask
+instance/
+.webassets-cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables (IMPORTANT - Contains secrets)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+services/**/.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+
+# Node.js / React Frontend
+node_modules/
+frontend/node_modules/
+
+# React Production Build
+frontend/build/
+frontend/dist/
+build/
+dist/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.cache
+
+# Credentials and Secrets (DO NOT COMMIT!)
+*credentials*
+*secrets*
+*.key
+*.pem
+*.cert
+
+# Database Files
+*.db
+*.sql
+*.dump
+instance/*.db
+backend/instance/*.db
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Docker volumes
+**/data/
+
+# Large Files and Archives
+*.zip
+*.tar.gz
+*.rar
+
+
+/backend/venv/
+
+/frontend/node_modules/
+docker-compose.microservices.yml
+# docker-compose.yml
+backend/.env
